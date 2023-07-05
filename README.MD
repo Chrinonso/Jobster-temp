@@ -1,8 +1,4 @@
-# Jobster API
-
-#### Starter
-
-The starter is a copy of jobs-api final project, just with additional data.
+Taking you through the process of learning
 
 #### Setup
 
@@ -34,17 +30,7 @@ npm start
 
 #### Spring Cleaning
 
-##### Remove Swagger
 
-- delete swagger.yaml file
-- remove these lines of code
-- delete swagger.yaml
-  app.js
-
-```js
-const swaggerUI = require('swagger-ui-express');
-const YAML = require('yamljs');
-const swaggerDocument = YAML.load('./swagger.yaml');
 
 app.get('/', (req, res) => {
   res.send('<h1>Jobs API</h1><a href="/api-docs">Documentation</a>');
